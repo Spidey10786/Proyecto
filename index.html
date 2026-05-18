@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Administrativo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div class="dashboard">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" role="navigation">
+    <h2 class="logo">AdminSys</h2>
+
+    <nav class="menu">
+      <a href="#">🏠 Inicio</a>
+      <a href="#">📦 Inventario</a>
+      <a href="#">💰 Ventas</a>
+      <a href="#">👥 Usuarios</a>
+      <a href="#">📊 Analítica</a>
+      <a href="#">⚙️ Configuración</a>
+    </nav>
+  </aside>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Dashboard</h1>
+    <input type="text" placeholder="Buscar..." />
+  </header>
+
+  <!-- MAIN -->
+  <main class="main" role="main">
+
+    <!-- CARDS -->
+    <section class="cards">
+
+      <div class="card">
+        <h3>Productos</h3>
+        <p>1,240</p>
+      </div>
+
+      <div class="card">
+        <h3>Ventas</h3>
+        <p>$32,500</p>
+      </div>
+
+      <div class="card">
+        <h3>Usuarios</h3>
+        <p>890</p>
+      </div>
+
+      <div class="card">
+        <h3>Visitas</h3>
+        <p>12,300</p>
+      </div>
+
+    </section>
+
+    <!-- TABLE -->
+    <section class="table-section">
+      <h2>Últimas transacciones</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cliente</th>
+            <th>Estado</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Teclado</td>
+            <td>Ana</td>
+            <td class="ok">Pagado</td>
+            <td>$50</td>
+          </tr>
+
+          <tr>
+            <td>Mouse</td>
+            <td>Juan</td>
+            <td class="pending">Pendiente</td>
+            <td>$25</td>
+          </tr>
+
+          <tr>
+            <td>Monitor</td>
+            <td>Laura</td>
+            <td class="ok">Pagado</td>
+            <td>$200</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Dashboard Administrativo - Ingeniería de Software</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
